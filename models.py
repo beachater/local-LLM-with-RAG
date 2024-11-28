@@ -65,3 +65,6 @@ def check_if_model_is_available(model_name: str) -> None:
             raise Exception(
                 f"Unable to find model '{model_name}', please check the name and try again."
             )
+
+
+
